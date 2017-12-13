@@ -1,37 +1,11 @@
 const router = require('express').Router(),
   addresses = [
-    {
-      lines: ['Studio 103', 'The Business Centre', '61 Wellfield Road'],
-      town: 'Roath',
-      city: 'Cardiff',
-      postcode: 'CF24 3DG'
-    },{
-      lines: ['Room 67', '14 Tottenham Court Road'],
-      city: 'London',
-      country: 'England',
-      postcode: 'W1T 1JY'
-    },{
-      lines: ['Unit 14', '3 Edgar Buildings', 'George Street'],
-      city: 'Bath',
-      country: 'England',
-      postcode: 'BA1 2FJ'
-    },{
-      lines: ['Department 98', '44-46 Morningside Road'],
-      city: 'Edinburgh',
-      country: 'Scotland',
-      postcode: 'EH10 4BF'
-    },{
-      lines: ['Box 777', '91 Western Road'],
-      city: 'Brighton',
-      county: 'East Sussex',
-      country: 'England',
-      postcode: 'BN1 2NW'
-    },{
-      lines: ['Office 33', '27 Colmore Row'],
-      city: 'Birmingham',
-      country: 'England',
-      postcode: 'B3 2EW'
-    }
+    { address: [ 'Studio 103', 'The Business Centre', '61 Wellfield Road', 'Roath', 'Cardiff', 'CF24 3DG' ]},
+    { address: [ 'Room 67', '14 Tottenham Court Road', 'London', 'England', 'W1T 1JY' ]},
+    { address: [ 'Unit 14', '3 Edgar Buildings', 'George Street', 'Bath', 'England', 'BA1 2FJ' ]},
+    { address: [ 'Department 98', '44-46 Morningside Road', 'Edinburgh', 'Scotland', 'EH10 4BF' ]},
+    { address: [ 'Box 777', '91 Western Road', 'Brighton', 'East Sussex', 'England', 'BN1 2NW' ]},
+    { address: [ 'Office 33', '27 Colmore Row', 'Birmingham', 'England', 'B3 2EW' ]}
   ],
   arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
